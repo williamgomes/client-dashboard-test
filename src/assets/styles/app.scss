@@ -1,0 +1,47 @@
+@font-face {
+  font-family: CerebriSansPro;
+  font-style: normal;
+  font-weight: 400;
+  src: url(/src/assets/fonts/CerebriSansPro/CerebriSansPro-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: CerebriSansPro;
+  font-style: normal;
+  font-weight: 600;
+  src: url(/src/assets/fonts/CerebriSansPro/CerebriSansPro-SemiBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: CerebriSansPro;
+  font-style: normal;
+  font-weight: 800;
+  src: url(/src/assets/fonts/CerebriSansPro/CerebriSansPro-Bold.ttf) format("truetype");
+}
+
+.nav-logo {
+  height: 26px;
+}
+
+.logout-button {
+  font-size: 26px;
+}
+
+.header-main-text {
+  font-family: CerebriSansPro, serif
+}
+
+.w-350 {
+  width: 350px;
+}
+
+.text-ellipsis {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
